@@ -13,7 +13,7 @@ export default function Features() {
 
             <div className="grid md:grid-cols-3 gap-8">
                 {features.map((f, i) => (
-                    <div key={i} className="p-6 bg-white rounded-2xl shadow">
+                    <div key={i} className="p-6 bg-white rounded-2xl shadow hover:bg-blue-50">
                         <h4 className="text-xl font-bold mb-2">{f.title}</h4>
                         <p className="text-gray-600">{f.desc}</p>
                     </div>
