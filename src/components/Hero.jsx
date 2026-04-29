@@ -7,7 +7,7 @@ export default function Hero() {
             <p className="text-gray-600 mb-8">
                 Una landing moderna con React y Tailwind
             </p>
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-xl text-lg hover:bg-blue-700">
+            <button className="bg-blue-600 text-white px-6 py-3 rounded-xl text-lg hover:bg-blue-700 hover:scale-110 transition-transform duration-300 ease-in-out">
                 Empezar ahora
             </button>
         </section>

@@ -6,7 +6,7 @@ export default function Features() {
     ];
 
     return (
-        <section className="py-16 px-8">
+        <section className="pt-16 pb-16 px-8">
             <h3 className="text-3xl font-bold text-center mb-12">
                 Características
             </h3>

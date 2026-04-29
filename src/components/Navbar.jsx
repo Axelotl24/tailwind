@@ -1,4 +1,4 @@
-const navLink = "hover:scale-125 hover:text-blue-600 transition-transform duration-400 ease-in-out";
+const navLink = "hover:scale-125 hover:text-blue-600 transition-transform duration-300 ease-in-out";
 
 export default function Navbar() {
     return (
@@ -9,7 +9,7 @@ export default function Navbar() {
                 <a href="#" className={navLink}>Pricing</a>
                 <a href="#" className={navLink}>Contacto</a>
             </div>
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-xl hover:bg-blue-700 hover:scale-110 transition-transform duration-400 ease-in-out">
+            <button className="bg-blue-600 text-white px-4 py-2 rounded-xl hover:bg-blue-700 hover:scale-110 transition-transform duration-300 ease-in-out">
                 Empezar
             </button>
         </nav>
